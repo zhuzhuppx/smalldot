@@ -1,0 +1,11 @@
+mybatis-plus:
+  mapper-locations: com/smalldot/dao/mapper/*.xml
+  type-aliases-package: com.smalldot.dao.model
+  configuration:
+    map-underscore-to-camel-case: true
+  logging:
+    level:
+      com:
+        smalldot:
+          dao:
+            mapper: debug

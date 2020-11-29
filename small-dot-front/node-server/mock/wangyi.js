@@ -1,0 +1,1 @@
+module.exports = { "/api/music-vip-membership/front/vip/info": { "message": "用户未登录", "code": 301 }, "/api/nuser/account/get": { "code": 200, "account": null, "profile": null }, "/api/purchased/redvip/vipstatus": { "msg": null, "code": 301 }, "code": 200 }

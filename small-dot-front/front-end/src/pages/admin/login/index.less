@@ -1,0 +1,34 @@
+.login-page {
+	width: 600px;
+	padding: 64px;
+	margin: 150px auto;
+	.login-form {
+		max-width: 300px;
+	}
+	.login-form-forgot {
+		float: right;
+	}
+	.login-form-button {
+		width: 100%;
+	}
+	.bg-img {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+    animation: slowShow 10s linear infinite;
+    -webkit-animation: slowShow 2s ease-in-out  1; /* Safari 和 Chrome */
+	}
+	@keyframes slowShow {
+		0% {
+			opacity: (0.8);
+		}
+		50% {
+			opacity: (0.9);
+		}
+		100% {
+			opacity: (1);
+		}
+	}
+}
