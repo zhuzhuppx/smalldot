@@ -21,7 +21,6 @@
         <module>small-dao</module>
         <module>smalldot-service</module>
         <module>small-common</module>
-        <module>small-dao-gen</module>
     </modules>
     <profiles>
         <profile>
