@@ -3,14 +3,11 @@ const {
   fixBabelImports,
   addLessLoader,
   addWebpackAlias,
-  addWebpackPlugin,
-  setWebpackPublicPath
+  addWebpackPlugin
 } = require("customize-cra");
 const ProgressBarPlugin = require("progress-bar-webpack-plugin");
 const chalk = require("chalk");
 const path = require("path");
-const { appBuild, publicPath } = require("./config/index");
-
 function resolve(dir) {
   return path.join(__dirname, ".", dir);
 }
@@ -38,10 +35,8 @@ module.exports = {
         clear: true
       })
     ),
-    setWebpackPublicPath(publicPath)
   ),
   paths: paths => {
-   // paths.appBuild = appBuild;
     return paths;
   }
 };

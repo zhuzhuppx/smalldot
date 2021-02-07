@@ -2,6 +2,7 @@
   "name": "react-app-tpl",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@loadable/component": "^5.10.3",
     "antd": "^3.26.6",
